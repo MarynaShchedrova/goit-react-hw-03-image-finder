@@ -2,19 +2,6 @@ import css from './Modal.module.css';
 import propTypes from 'prop-types';
 import { Component } from 'react';
 import { createPortal } from 'react-dom';
-// export const Modal = ({ src, alt, handleClose }) => (
-//   <div className={css.Overlay} onClick={handleClose}>
-//     <div className={css.Modal}>
-//       <img src={src} alt={alt} />
-//     </div>
-//   </div>
-// );
-
-// Modal.propTypes = {
-//   src: propTypes.string.isRequired,
-//   alt: propTypes.string.isRequired,
-//   handleClose: propTypes.func.isRequired,
-// };
 
 const modalRoot = document.querySelector('#modal-root');
 
